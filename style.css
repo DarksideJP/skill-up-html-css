@@ -104,7 +104,7 @@ header {
 	margin-top: 0;
 }
 
-.sp:nth-child(3n) {
+.image:nth-child(3n) {
 	margin-right: 0;
 }
 
@@ -261,5 +261,160 @@ header {
 	background-color: #EC715F;
 }
 
+@media screen and (max-width: 767px) {
 
+header {
+	height:50px;
+	padding: 0 5%;
+}
 
+.logo {
+	height: 40px;
+	margin: 5px 0;
+}
+
+.container {
+	width: 90%;
+}
+
+#hm-icon{
+	float: right;
+  width: 40px;
+  height: 40px;
+  border: solid 1px #FFF;
+  margin: 5px 0;
+}
+
+.nav {display:none;}
+
+.menu-trigger,
+.menu-trigger span {
+  display: inline-block;
+}
+
+.menu-trigger {
+  position: relative;
+  width: 50px;
+  height: 30px;
+}
+
+.menu-trigger span {
+  position: absolute;
+  left: 6px;
+  width: 50%;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.menu-trigger span:nth-of-type(1) {
+  top: 5px;
+}
+
+.menu-trigger span:nth-of-type(2) {
+  top: 16px;
+}
+
+.menu-trigger span:nth-of-type(3) {
+  bottom: -1px;
+}
+
+.main-visual {
+	background-image: url(img/code.png);
+	padding: 0 5%;
+	height: 650px;
+}
+
+.main-visual-contents {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.visual-text {
+	font-size: 40px;
+}
+
+.visual-sub-text {
+	font-size: 18px;
+}
+
+.image:nth-child(odd) {
+	display:none;
+}
+.image:nth-child(6) {
+	margin: 0 auto;
+}
+
+#portfolio {
+	padding: 0 5%;
+}
+.portfolio {
+	width: 90%;
+}
+
+.image {
+	margin: 0 auto 10px;
+	float: none;
+}
+
+#feature {
+	padding: 0 5px;
+}
+
+.feature {
+	width:90%;
+	margin: 0 auto;
+}
+
+.feature-box {
+	float:none;
+	margin:0 auto;
+}
+
+.feature-box:last-child {
+	margin: 0 auto;
+}
+
+.feature-box:nth-child(-n+2) {
+	padding-bottom: 10px;
+}
+
+.profile {
+	width:90%;
+}
+
+.profile-image-box {
+	width:90%;
+	float: none;
+	margin:0 auto;
+}
+
+.profile-text-box {
+	float:none;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.contact {
+	width:90%;
+}
+
+.contact-details-box {
+	float:none;
+	text-align:center;
+}
+
+.contact-details-box i {
+	margin-right:8px;
+}
+
+.contact-details-box i:last-child {
+	margin:0;
+}
+
+.contact-details-right {
+	padding-top: 20px;
+}
+
+}
